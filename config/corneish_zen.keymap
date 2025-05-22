@@ -33,7 +33,7 @@
         ts_lambda: ts_lambda {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp GT>;
+            bindings = <&kp LPAR &kp RPAR &kp EQUAL &kp GT>;
             label = "TS_LAMBDA";
         };
     };
